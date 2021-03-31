@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice 6</title>
+</head>
+<body>
+        <form action="">
+            <fieldset class="form1">
+                <legend class="bluelegend">Votre Identité</legend>
+                <label for="Nom">1. Nom :</label> 
+                <input type="text" id="Nom" placeholder="Nom"><br>
+                <label for="Prenom">2. Prénom :</label>  
+                <input type="text" id="Prenom" placeholder="Prénom"><br>
+                <label for="AdresseMail">3. Adresse Mail :</label> 
+                <input type="text" id="AddresseMail" placeholder="Adresse mail">
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset class="form2">
+                <legend class="purplelegend">Adresse de livraison</legend><br>
+                <label for="Adresse">1. Adresse :</label>
+                <textarea name="Adresse" id="Adresse" cols="30" rows="10"></textarea><br>
+                <label for="CodePostal">2. Code Postal :</label>
+                <input type="text" id="CodePostal" placeholder="Code Postal"><br>
+                <label for="Ville">3. Ville</label>
+                <input type="text" id="Ville" placeholder="Ville"><br>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset class="form3">
+                <legend class="redlegend">Information de réglement</legend><br>
+                <label for="TypeCB">1. Type de Carte Bancaire</label><br>
+                <div class="padding">
+                    <input type="radio" id="TypeCB" name="Visa" value="VISA">
+                    <label for="Visa">VISA</label><br>
+                    <input type="radio" id="TypeCB" name="Mastercard" value="Mastercard">
+                    <label for="Mastercard">Mastercard</label><br>
+                </div>
+                <label for="NumCard">2. Numéro de carte :</label>
+                <input type="text" id="NumCard" placeholder="Numéro de carte"><br>
+                <label for="CodeSecu">3. Code de sécurité :</label>
+                <input type="text" id="CodeSecu" placeholder="Code de sécurité"><br>
+                <label for="NomTitu">4. Nom du titulaire :</label>
+                <input type="text" id="NomTitu" placeholder="Nom du titulaire">
+            </fieldset>
+        </form>
+    <input type="button" value="J'achète!">
+</body>
+</html>

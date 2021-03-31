@@ -1,0 +1,33 @@
+.form1 {
+    background-color: blue;
+}
+
+.form2 {
+    background-color: purple;
+}
+.form3{
+    background-color: red;
+}
+input{
+    margin: 2px;
+}
+label{
+    padding-left: 5px;
+}
+legend{
+    color: black;
+    padding: 5px;
+}
+.padding{
+    
+    padding-left: 50px;
+}
+.bluelegend{
+    background-color: blue;
+}
+.purplelegend{
+    background-color: purple;
+}
+.redlegend{
+    background-color: red;
+}

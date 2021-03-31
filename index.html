@@ -8,7 +8,7 @@
     <title>Exercice 6</title>
 </head>
 <body>
-        <form action="">
+        <form>
             <fieldset class="form1">
                 <legend class="bluelegend">Votre Identité</legend>
                 <label for="Nom">1. Nom :</label> 
@@ -16,10 +16,10 @@
                 <label for="Prenom">2. Prénom :</label>  
                 <input type="text" id="Prenom" placeholder="Prénom"><br>
                 <label for="AdresseMail">3. Adresse Mail :</label> 
-                <input type="text" id="AddresseMail" placeholder="Adresse mail">
+                <input type="email" id="AdresseMail" placeholder="Adresse mail">
             </fieldset>
         </form>
-        <form action="">
+        <form>
             <fieldset class="form2">
                 <legend class="purplelegend">Adresse de livraison</legend><br>
                 <label for="Adresse">1. Adresse :</label>
@@ -30,14 +30,14 @@
                 <input type="text" id="Ville" placeholder="Ville"><br>
             </fieldset>
         </form>
-        <form action="">
+        <form>
             <fieldset class="form3">
-                <legend class="redlegend">Information de réglement</legend><br>
-                <label for="TypeCB">1. Type de Carte Bancaire</label><br>
+                <legend class="redlegend">Information de réglement</legend>
+                <p>1. Type de Carte Bancaire</p><br>
                 <div class="padding">
-                    <input type="radio" id="TypeCB" name="Visa" value="VISA">
+                    <input type="radio" id="Visa" name="Visa" value="VISA">
                     <label for="Visa">VISA</label><br>
-                    <input type="radio" id="TypeCB" name="Mastercard" value="Mastercard">
+                    <input type="radio" id="Mastercard" name="Mastercard" value="Mastercard">
                     <label for="Mastercard">Mastercard</label><br>
                 </div>
                 <label for="NumCard">2. Numéro de carte :</label>
